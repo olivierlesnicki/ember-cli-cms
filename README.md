@@ -1,6 +1,12 @@
 # Ember-cli-cms
 
-This README outlines the details of collaborating on this Ember addon.
+An ember-cli addon that offers a simple in repo CMS solution.
+
+## Getting started
+
+Create a directory named `cms` in the root folder of your application. Every single markdown file created in that directory will result in a new route in your ember application.
+
+*Pro tip:* because the markdown pages get converted to `hbs` templates, you can leverage handlebar notations to render inline components and use helpers within your pages.
 
 ## Installation
 
